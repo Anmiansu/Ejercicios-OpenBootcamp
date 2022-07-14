@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-gallery {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    width: 100vw;
+    gap: 10px;
+}
+
+img {
+    width: 300px;
+    cursor: pointer;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+h1 {
+    margin: 1em;
+    text-align: center;
+}
+
+body {
+    background-color: burlywood;
+}
+
